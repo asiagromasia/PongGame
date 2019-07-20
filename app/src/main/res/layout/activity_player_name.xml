@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E3551"
+    android:textColor="#94FF1B"
+    tools:context=".PlayerName">
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/PlayerName"
+        android:textColor="#94FF1B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/PlayerNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:autofillHints=""
+        android:hint="@string/writeName"
+        android:inputType="text"
+        android:textColor="#94FF1B"
+        android:textColorHint="#FFEB3B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="@string/Submit"
+        android:textColor="#94FF1B"
+        android:background="#0E3551"
+        app:layout_constraintEnd_toStartOf="@+id/PlayerNameValue"
+        app:layout_constraintTop_toBottomOf="@+id/PlayerNameValue" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

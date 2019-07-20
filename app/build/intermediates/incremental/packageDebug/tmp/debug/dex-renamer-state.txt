@@ -1,0 +1,4 @@
+#Fri Jul 19 21:59:42 PDT 2019
+base.0=/Users/szkola/Downloads/Pong-master/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

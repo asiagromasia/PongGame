@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E3551"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/PongLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0E3551"
+        android:clickable="false"
+        android:shadowColor="#A22121"
+        android:text="@string/pong_break"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#94FF1B"
+        android:textColorLink="#FFFFFF"
+        android:typeface="monospace"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/player1button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:background="#0E3551"
+        android:clickable="true"
+        android:onClick="Player1"
+        android:text="@string/_1_player"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#94FF1B"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PongLogo" />
+
+    <Button
+        android:id="@+id/player2button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:background="#0E3551"
+        android:clickable="false"
+        android:onClick="Player2"
+        android:text="@string/_2_player"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#94FF1B"
+        android:typeface="monospace"
+        app:layout_constraintStart_toStartOf="@+id/player1button"
+        app:layout_constraintTop_toBottomOf="@+id/player1button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

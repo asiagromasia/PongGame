@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pong</string>
+    <string name="pong_break">Pong Break</string>
+    <string name="_1_player">1 Player</string>
+    <string name="_2_player">2 Player</string>
+    <string name="PlayerName">Player Name:</string>
+    <string name="enterName">Enter your name here!!</string>
+    <string name="PlayerNameValue">PlayerName</string>
+    <string name="Submit">Submit</string>
+    <string name="writeName">Enter Your name here</string>
+</resources>
