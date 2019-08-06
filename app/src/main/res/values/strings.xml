@@ -8,4 +8,7 @@
     <string name="PlayerNameValue">PlayerName</string>
     <string name="Submit">Submit</string>
     <string name="writeName">Enter Your name here</string>
+    <string name="GameOver">Game Over</string>
+    <string name="Exit">Exit</string>
+    <string name="StartAgain">Start Again</string>
 </resources>

@@ -1,14 +1,8 @@
 package com.example.pong;
-
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,15 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Player1(View view) {
         setContentView(R.layout.activity_player_name);
-       Intent intent = new Intent(this, PlayerName.class);
-       //startActivity(new Intent(this,PlayerName.class));
-    }
-
-    public void Player2(View view) {
-        setContentView(R.layout.activity_player_name);
-        //  Intent intent = new Intent(this, PlayerName.class);
         startActivity(new Intent(this,PlayerName.class));
     }
+
 
 
     /* *** This is a pop up window at the end of the level*****
